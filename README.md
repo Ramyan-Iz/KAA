@@ -67,5 +67,27 @@ I cannot believe I ate that cake. This overwhelming shame...,2.0
 My friend didn't laugh at my joke—they must think I'm not funny.	Labeling (3.0)	99.85%
 My headache must be a brain tumor.	Catastrophizing (6.0)	87.80%
 
+
+Дополнительные проекты
+Клиент для API Герцена
+В рамках работы также разработан Python-клиент для интеграции с API РГПУ им. А.И. Герцена.
+
+Основные возможности:
+
+GET-запросы к API с HMAC-SHA256 подписью
+
+Валидация данных через Pydantic модели
+
+Синхронная и асинхронная версии клиента
+
+Пример использования:
+
+python
+api = HerzenAPI(client_id, secret_key)
+response = api.get_changes(start_date, end_date)
+students = response.data
+Этот клиент используется для получения актуальных данных о студентах в корпоративных информационных системах.
+
+
 Автор: Сарапулов Роман
 Тема ВКР: Идентификация когнитивных искажений в текстах с помощью нейронной сети
