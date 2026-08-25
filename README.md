@@ -68,7 +68,8 @@ My friend didn't laugh at my joke—they must think I'm not funny.	Labeling (3.0
 My headache must be a brain tumor.	Catastrophizing (6.0)	87.80%
 
 
-Дополнительные проекты
+Дополнительные проекты:
+
 Клиент для API Герцена
 В рамках работы также разработан Python-клиент для интеграции с API РГПУ им. А.И. Герцена.
 
